@@ -21,9 +21,9 @@ function Card() {
       
       <Footer/>
     </div>
-    
   )
 }
+    
     
     
 
