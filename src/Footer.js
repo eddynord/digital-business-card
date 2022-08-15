@@ -9,14 +9,14 @@ import github from './img/icons/GitHub Icon.png';
 export default Footer
 function Footer() {
     return(
-        <footer>
+        <footer className='footer'>
             <div className='social'>
-                <ul className='social-links'>
-                    <li><a href='#'><img src={twitter}/></a></li>
-                    <li><a href='#'><img src={facebook}/></a></li>
-                    <li><a href='#'><img src={instagram}/></a></li>
-                    <li><a href='#'><img src={github}/></a></li>
-                </ul>
+                <div className='social-links'>
+                    <a href='#'><img src={twitter}/></a>
+                    <a href='#'><img src={facebook}/></a>
+                    <a href='#'><img src={instagram}/></a>
+                    <a href='#'><img src={github}/></a>
+                </div>
             </div>
         </footer>
     )

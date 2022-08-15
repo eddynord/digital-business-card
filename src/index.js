@@ -13,9 +13,12 @@ import Footer from './Footer';
 function Card() {
   return (
     <div className='card'>
-      <Header/>
-      <About/>
-      <Interests/>
+      <div className='card-content'>
+        <Header/>
+        <About/>
+        <Interests/>
+      </div>
+      
       <Footer/>
     </div>
     
